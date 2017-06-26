@@ -11,7 +11,7 @@ module Administrate
       end
 
       def priority_countries
-        options.fetch(:priority_countries, %w(US IT GB)
+        options.fetch(:priority_countries, %w(US IT GB))
       end
 
       def include_blank?
